@@ -6,7 +6,7 @@
   "repository": {
     "url": "https://github.com/fabdrol/mobileagent"
   },
-  "main": "./index",
+  "main": "./lib/mobile",
   "engines": {
     "node": ">=0.6"
   },
