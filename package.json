@@ -1,0 +1,18 @@
+{
+  "author": "Fabian Tollenaar",
+  "name": "mobileagent",
+  "description": "Easy mobile browser detection helper.",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/fabdrol/mobileagent"
+  },
+  "main": "./index",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "useragent": "1.1.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
