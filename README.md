@@ -1,4 +1,11 @@
-mobileagent
+``` 
+
+npm install mobile-agent
+
+```
+
+
+mobile-agent
 ===========
 
 Easy mobile browser detection helper for Node.js
@@ -10,7 +17,7 @@ Simple Example (Node HTTP):
 // Writes the user agent obj. out to the screen
 var http = require('http');
 var util = require('util');
-var ua 	 = require('./mobile');
+var ua 	 = require('mobile-agent');
 
 http.createServer(function (req, res) {
 	var agent = ua(req.headers['user-agent']);
@@ -46,7 +53,7 @@ Express example:
 
 ```javascript
 
-var ua 	 = require('./mobile');
+var ua 	 = require('mobile-agent');
 
 app.get('/', function(req, res) {
 	var agent = ua(req.headers['user-agent'])

@@ -1,8 +1,8 @@
 {
   "author": "Fabian Tollenaar",
-  "name": "mobileagent",
+  "name": "mobile-agent",
   "description": "Easy mobile browser detection helper.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "https://github.com/fabdrol/mobileagent"
   },

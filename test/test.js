@@ -1,6 +1,6 @@
 var http = require('http');
 var util = require('util');
-var ua 	 = require('./mobile');
+var ua 	 = require('../lib/mobile');
 
 http.createServer(function (req, res) {
 	var agent = ua(req.headers['user-agent']);
